@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.h1{
+    color: white;
+    margin:70px;
+}
+body{
+    background-color: black;
+    text-align: center;
+    object-position: center;
+}
+.container{
+    height:30px;
+    justify-content: center;
+    align-items: center; 
+    /* we can use gap property */
+}
+.game{
+    height:60px;
+    /* display:flex; */
+}
+.box{
+    height:70px;
+    width:70px;
+    margin:2px;
+    border-radius: 10px;
+    box-shadow: 0 0 16px rgba white;
+    font-size: 10px;
+    padding:1px;
+}
+.reset{
+    padding:10px;
+    margin-top: 250px;
+    background-color:whitesmoke;
+    color: rgb(52, 167, 52);
+    font-size: 10px;
+    border-radius: 20px;
+    margin:20px;
+}
+.exit{
+    padding:12px;
+    margin-top: 250px;
+    background-color:whitesmoke;
+    color: rgb(209, 49, 49);
+    font-size: 9px;
+    border-radius: 20px;
+    margin-left:50x ;
+    gap:50px;
+}
